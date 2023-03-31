@@ -1,0 +1,25 @@
+h1 {
+  color: blue;
+  font-size: 28px;
+}
+
+nav ul {
+  border: 2px solid;
+  margin-left: 5px;
+}
+nav ul li {
+  color: green;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+}
+
+button {
+  border: 1px solid orange;
+  background-color: greenyellow;
+}
+button:hover {
+  background-color: salmon;
+  padding: 50px;
+}/*# sourceMappingURL=style.css.map */

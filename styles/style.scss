@@ -1,0 +1,29 @@
+// variable color variable
+@use 'variable';
+$primary-color:blue;
+
+h1{
+    color: $primary-color;
+    font-size: variable.$lg-font;
+}
+nav{
+    ul{
+        border:2px solid;
+        margin-left: 5px;
+        li{
+            color:green;
+            list-style: none;
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}
+button{
+    border: 1px solid orange;
+    background-color: greenyellow;
+    &:hover{
+        background-color: salmon;
+        padding: 50px;
+    }
+}
